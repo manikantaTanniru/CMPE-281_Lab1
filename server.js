@@ -2,9 +2,7 @@ const http = require('http');
 
 const requestListener = function (req, res) {
   res.writeHead(200);
-  res.end('Working as expected!');
-  res.end(’This is a successful message’);
-  res.end(‘Node App’);
+  res.end('Hello World, This node App is Working as expected!');
 }
 
 const server = http.createServer(requestListener);
